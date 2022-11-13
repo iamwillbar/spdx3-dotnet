@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spdx3", "Spdx3\Spdx3.csproj", "{8D743788-7382-4774-9FD8-2BA5663E0CB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spdx3.Serialization", "Spdx3.Serialization\Spdx3.Serialization.csproj", "{11340A19-85A3-4FF8-9186-A3156E60DE68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spdx3.Tests", "Spdx3.Tests\Spdx3.Tests.csproj", "{91D4F1B0-B5E2-4FA7-BA8B-C2BAD2F0CB76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D743788-7382-4774-9FD8-2BA5663E0CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D743788-7382-4774-9FD8-2BA5663E0CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D743788-7382-4774-9FD8-2BA5663E0CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D743788-7382-4774-9FD8-2BA5663E0CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11340A19-85A3-4FF8-9186-A3156E60DE68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11340A19-85A3-4FF8-9186-A3156E60DE68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11340A19-85A3-4FF8-9186-A3156E60DE68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11340A19-85A3-4FF8-9186-A3156E60DE68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91D4F1B0-B5E2-4FA7-BA8B-C2BAD2F0CB76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91D4F1B0-B5E2-4FA7-BA8B-C2BAD2F0CB76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91D4F1B0-B5E2-4FA7-BA8B-C2BAD2F0CB76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91D4F1B0-B5E2-4FA7-BA8B-C2BAD2F0CB76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

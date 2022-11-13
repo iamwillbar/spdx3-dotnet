@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <DebugSymbols>true</DebugSymbols>
+      <DebugType>pdbonly</DebugType>
+      <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Spdx3\Spdx3.csproj" />
+    </ItemGroup>
+
+</Project>
