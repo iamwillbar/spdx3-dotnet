@@ -8,7 +8,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - name: Install pre-requisites
+      run: apt update && apt install -y doxygen graphviz
     - uses: actions/checkout@v3
+      with:
+        submodules: true
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
@@ -19,3 +23,14 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
+    - name: Generate documentation
+      run: doxygen Spdx3.Documentation/doxygen.conf
+    - name: Setup Pages
+      uses: actions/configure-pages@v2
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v1
+      with:
+        path: docs
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v1
