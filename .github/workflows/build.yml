@@ -9,11 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Install pre-requisites
-      run: sudo apt update && sudo apt install -y doxygen graphviz
     - uses: actions/checkout@v3
-      with:
-        submodules: true
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
@@ -24,6 +20,18 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
+  docs:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        submodules: true
+    - name: Install pre-requisites
+      run: sudo apt update && sudo apt install -y doxygen graphviz
     - name: Generate documentation
       run: doxygen Spdx3.Documentation/doxygen.conf
     - name: Setup Pages
