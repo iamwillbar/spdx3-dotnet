@@ -2,7 +2,7 @@ namespace Spdx3.Core;
 
 /// \ingroup Core
 /// <summary>
-/// 
+/// Represents an identifier from outside of the SPDX domain for an Element.
 /// </summary>
 public struct ExternalIdentifier
 {

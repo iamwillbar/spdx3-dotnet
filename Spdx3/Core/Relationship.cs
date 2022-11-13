@@ -2,7 +2,7 @@ namespace Spdx3.Core;
 
 /// \ingroup Core
 /// <summary>
-/// 
+/// Represents a connection between one and more Elements.
 /// </summary>
 public class Relationship : Element
 {

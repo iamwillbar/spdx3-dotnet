@@ -1,6 +1,7 @@
 namespace Spdx3.Core;
 
 /// \defgroup Core Core
+/// \ingroup Core
 /// <summary>
 /// 
 /// </summary>

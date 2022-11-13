@@ -2,7 +2,7 @@ namespace Spdx3.Core;
 
 /// \ingroup Core
 /// <summary>
-/// 
+/// Represents how complete the list of Elements in a relationship is.
 /// </summary>
 public enum RelationshipCompleteness
 {

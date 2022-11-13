@@ -2,7 +2,7 @@ namespace Spdx3.Core;
 
 /// \ingroup Core
 /// <summary>
-/// 
+/// Represents the algorithm used to calculate a cryptographic hash. 
 /// </summary>
 public enum HashAlgorithm
 {

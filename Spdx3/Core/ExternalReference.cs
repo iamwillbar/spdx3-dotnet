@@ -2,7 +2,7 @@ namespace Spdx3.Core;
 
 /// \ingroup Core
 /// <summary>
-/// 
+/// Represents a pointer to information outside of the SPDX domain related to an Element. 
 /// </summary>
 public struct ExternalReference
 {

@@ -2,7 +2,7 @@ namespace Spdx3.Core;
 
 /// \ingroup Core
 /// <summary>
-/// 
+/// Represents the nature of the connection between one and more Elements. 
 /// </summary>
 public enum RelationshipType
 {

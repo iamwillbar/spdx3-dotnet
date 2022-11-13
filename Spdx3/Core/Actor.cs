@@ -2,7 +2,7 @@ namespace Spdx3.Core;
 
 /// \ingroup Core
 /// <summary>
-/// 
+/// Represents an entity observed performing an action.
 /// </summary>
 public struct Actor : IActor
 {

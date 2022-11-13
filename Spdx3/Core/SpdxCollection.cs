@@ -2,7 +2,7 @@ namespace Spdx3.Core;
 
 /// \ingroup Core
 /// <summary>
-/// 
+/// Represents a collection of Elements.
 /// </summary>
 public class SpdxCollection : Element
 {

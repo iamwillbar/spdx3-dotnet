@@ -2,7 +2,7 @@ namespace Spdx3.Core;
 
 /// \ingroup Core
 /// <summary>
-/// 
+/// Represents the list of Artifacts used to produce another Artifact.
 /// </summary>
 public class Bom : Bundle
 {

@@ -2,7 +2,7 @@ namespace Spdx3.Core;
 
 /// \ingroup Core
 /// <summary>
-/// 
+/// Represents the identity of an SPDX profile. 
 /// </summary>
 public struct ProfileIdentifier
 {

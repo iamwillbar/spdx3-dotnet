@@ -2,7 +2,7 @@ namespace Spdx3.Core;
 
 /// \ingroup Core
 /// <summary>
-/// 
+/// Represents a persisted collection of Elements.
 /// </summary>
 public class SpdxDocument : Bundle
 {

@@ -3,6 +3,7 @@ using Spdx3.Core;
 namespace Spdx3.Licensing;
 
 /// \defgroup Licensing Licensing
+/// \ingroup Licensing
 /// <summary>
 /// 
 /// </summary>

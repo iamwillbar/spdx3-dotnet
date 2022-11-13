@@ -2,7 +2,7 @@ namespace Spdx3.Core;
 
 /// \ingroup Core
 /// <summary>
-/// 
+/// Represents the context in which an Element was created.
 /// </summary>
 public struct CreationInformation
 {

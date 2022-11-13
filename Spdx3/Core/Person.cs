@@ -2,7 +2,7 @@ namespace Spdx3.Core;
 
 /// \ingroup Core
 /// <summary>
-/// 
+/// Represents a natural person.
 /// </summary>
 public class Person : Element, IIdentity, IActor
 {

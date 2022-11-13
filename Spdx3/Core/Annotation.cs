@@ -2,8 +2,11 @@ namespace Spdx3.Core;
 
 /// \ingroup Core
 /// <summary>
-/// 
+/// Represents a comment or explanation about an Element.
 /// </summary>
+/// <remarks>
+///
+/// </remarks>
 public class Annotation : Element
 {
     public Annotation(Uri spdxId, CreationInformation creationInfo, Uri subject) : base(spdxId, creationInfo)

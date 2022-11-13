@@ -2,7 +2,7 @@ namespace Spdx3.Core;
 
 /// \ingroup Core
 /// <summary>
-/// 
+/// Represents a formal or informal group of people. 
 /// </summary>
 public class Organization : Element, IIdentity, IActor
 {
