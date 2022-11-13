@@ -1,5 +1,9 @@
 namespace Spdx3.Core;
 
+/// \ingroup Core
+/// <summary>
+/// 
+/// </summary>
 public class Relationship : Element
 {
     public Relationship(Uri spdxId, CreationInformation creationInfo, Uri fromElement, IEnumerable<Uri>? toElements = null, string? name = null) : base(spdxId, creationInfo, name)

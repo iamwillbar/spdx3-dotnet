@@ -1,5 +1,9 @@
 namespace Spdx3.Software;
 
+/// \ingroup Software
+/// <summary>
+/// 
+/// </summary>
 public enum SoftwarePurpose
 {
     Other = 0,

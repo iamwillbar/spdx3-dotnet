@@ -2,6 +2,7 @@ using Spdx3.Core;
 
 namespace Spdx3.Software;
 
+/// \ingroup Software
 /// <summary>
 /// Represents an individual file.
 /// </summary>

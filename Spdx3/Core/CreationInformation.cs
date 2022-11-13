@@ -1,5 +1,9 @@
 namespace Spdx3.Core;
 
+/// \ingroup Core
+/// <summary>
+/// 
+/// </summary>
 public struct CreationInformation
 {
     public CreationInformation(IEnumerable<Actor> createdBy, IEnumerable<ProfileIdentifier>? additionalProfiles = null)

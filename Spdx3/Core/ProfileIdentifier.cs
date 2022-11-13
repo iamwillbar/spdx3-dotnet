@@ -1,5 +1,9 @@
 namespace Spdx3.Core;
 
+/// \ingroup Core
+/// <summary>
+/// 
+/// </summary>
 public struct ProfileIdentifier
 {
     public static ProfileIdentifier Core = new ProfileIdentifier("core");

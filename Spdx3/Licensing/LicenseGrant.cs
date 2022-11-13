@@ -2,6 +2,10 @@ using Spdx3.Core;
 
 namespace Spdx3.Licensing;
 
+/// \defgroup Licensing Licensing
+/// <summary>
+/// 
+/// </summary>
 public class LicenseGrant : Extension
 {
     public LicenseGrant(string declaredLicense)

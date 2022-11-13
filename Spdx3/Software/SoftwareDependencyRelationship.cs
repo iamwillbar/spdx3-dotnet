@@ -2,6 +2,10 @@ using Spdx3.Core;
 
 namespace Spdx3.Software;
 
+/// \ingroup Software
+/// <summary>
+/// 
+/// </summary>
 public class SoftwareDependencyRelationship : Relationship
 {
     public SoftwareDependencyRelationship(Uri spdxId, CreationInformation creationInfo, Uri fromElement, IEnumerable<Uri>? toElements = null) : base(spdxId, creationInfo, fromElement, toElements)

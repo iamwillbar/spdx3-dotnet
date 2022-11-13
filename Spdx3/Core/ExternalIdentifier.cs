@@ -1,5 +1,9 @@
 namespace Spdx3.Core;
 
+/// \ingroup Core
+/// <summary>
+/// 
+/// </summary>
 public struct ExternalIdentifier
 {
     public ExternalIdentifier(ExternalIdentifierType externalIdentifierType, string identifier, string? comment = null)

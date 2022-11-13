@@ -1,5 +1,9 @@
 namespace Spdx3.Core;
 
+/// \ingroup Core
+/// <summary>
+/// 
+/// </summary>
 public enum HashAlgorithm
 {
     Sha1,
