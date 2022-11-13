@@ -1,5 +1,9 @@
 namespace Spdx3.Core;
 
+/// \defgroup Core Core
+/// <summary>
+/// 
+/// </summary>
 public abstract class Element
 {
     protected Element(Uri spdxId, CreationInformation creationInfo, string? name = null)

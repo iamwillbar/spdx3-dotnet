@@ -1,5 +1,9 @@
 namespace Spdx3.Core;
 
+/// \ingroup Core
+/// <summary>
+/// 
+/// </summary>
 public struct Actor : IActor
 {
     public Actor(string? name = null, ActorType? actorType = null, IEnumerable<ExternalIdentifier>? externalIdentifiers = null)
