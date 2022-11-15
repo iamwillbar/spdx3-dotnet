@@ -2,7 +2,7 @@ using System.Runtime.Serialization;
 
 namespace Spdx3.Core;
 
-/// \ingroup Core
+/// \ingroup core
 /// <summary>
 /// 
 /// </summary>

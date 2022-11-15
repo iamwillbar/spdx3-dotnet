@@ -2,7 +2,7 @@ using Spdx3.Core;
 
 namespace Spdx3.Software;
 
-/// \ingroup Software
+/// \ingroup software
 /// <summary>
 /// Represents a portion of a file.
 /// </summary>

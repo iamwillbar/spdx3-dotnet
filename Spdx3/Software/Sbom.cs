@@ -2,8 +2,8 @@ using Spdx3.Core;
 
 namespace Spdx3.Software;
 
-/// \defgroup Software Software
-/// \ingroup Software
+/// \defgroup software Software
+/// \ingroup software
 /// <summary>
 /// 
 /// </summary>

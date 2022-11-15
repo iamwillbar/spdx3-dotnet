@@ -1,6 +1,6 @@
 namespace Spdx3.Core;
 
-/// \ingroup Core
+/// \ingroup core
 /// <summary>
 /// Represents a method for verifying the integrity of an entity. 
 /// </summary>

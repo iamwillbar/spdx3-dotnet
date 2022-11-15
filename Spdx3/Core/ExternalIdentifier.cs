@@ -1,6 +1,6 @@
 namespace Spdx3.Core;
 
-/// \ingroup Core
+/// \ingroup core
 /// <summary>
 /// Represents an identifier from outside of the SPDX domain for an Element.
 /// </summary>

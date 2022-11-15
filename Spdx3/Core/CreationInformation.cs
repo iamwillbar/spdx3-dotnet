@@ -1,6 +1,6 @@
 namespace Spdx3.Core;
 
-/// \ingroup Core
+/// \ingroup core
 /// <summary>
 /// Represents the context in which an Element was created.
 /// </summary>

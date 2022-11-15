@@ -1,6 +1,6 @@
 namespace Spdx3.Core;
 
-/// \ingroup Core
+/// \ingroup core
 /// <summary>
 /// Represents a collection of Elements.
 /// </summary>

@@ -27,4 +27,8 @@
       <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Security" />
+    </ItemGroup>
+
 </Project>

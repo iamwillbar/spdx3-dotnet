@@ -1,6 +1,6 @@
 namespace Spdx3.Software;
 
-/// \ingroup Software
+/// \ingroup software
 /// <summary>
 /// 
 /// </summary>
